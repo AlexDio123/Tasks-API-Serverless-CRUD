@@ -2,7 +2,6 @@
 
 A serverless CRUD API for **Tasks** built with **AWS CDK**, **Lambda**, **API Gateway**, and **DynamoDB**.
 
-For how this project addresses the evaluation criteria, see [EVALUATION.md](EVALUATION.md).
 
 ---
 
