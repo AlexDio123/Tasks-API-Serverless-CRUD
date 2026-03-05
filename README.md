@@ -107,7 +107,7 @@ tasks-api/
 
 - **Python 3.10+**
 - **Node.js 18+** (for AWS CDK CLI)
-- **AWS CLI** configured with credentials (see [CONFIGUREME.md](CONFIGUREME.md) for install and setup)
+- **AWS CLI** configured with credentials
 - **AWS CDK CLI:** `npm install -g aws-cdk`
 
 ## Setup and deploy
