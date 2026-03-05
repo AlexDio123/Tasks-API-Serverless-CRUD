@@ -1,0 +1,2 @@
+# Declared for IDE/linting; boto3 is also provided by the Lambda runtime.
+boto3>=1.28.0
