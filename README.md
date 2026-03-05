@@ -12,7 +12,7 @@ For how this project addresses the evaluation criteria, see [EVALUATION.md](EVAL
 |-------------|----------|
 | **Lambda function code** | [`lambdas/create_task/handler.py`](lambdas/create_task/handler.py), [`lambdas/get_task/handler.py`](lambdas/get_task/handler.py), [`lambdas/update_task/handler.py`](lambdas/update_task/handler.py), [`lambdas/delete_task/handler.py`](lambdas/delete_task/handler.py) — one handler per CRUD operation |
 | **README (setup + deploy)** | This file — see [Prerequisites](#prerequisites), [Setup and deploy](#setup-and-deploy), and [Run tests](#run-tests) |
-| **Deploy instructions** | [Setup and deploy](#setup-and-deploy) below (venv, dependencies, `cdk bootstrap`, `cdk deploy`). AWS CLI/CDK install: [CONFIGUREME.md](CONFIGUREME.md) |
+| **Deploy instructions** | [Setup and deploy](#setup-and-deploy) below (venv, dependencies, `cdk bootstrap`, `cdk deploy`). |
 | **How to test the API** | [Try the API](#setup-and-deploy) (step 4) with `curl` examples; also [Run tests](#run-tests) for unit tests |
 
 Submit this project as a **GitHub repository** (clone or download as zip). All of the above are included in the repo.
@@ -36,7 +36,6 @@ tasks-api/
 ├── tests/
 ├── requirements.txt         # Dev/test deps (boto3, pytest)
 ├── README.md
-└── CONFIGUREME.md           # AWS CLI install and credentials
 ```
 
 ## Task model
