@@ -146,7 +146,7 @@ tasks-api/
      -d '{"title":"My Task","description":"First task","status":"pending"}'
 
    # Get task (use taskId from create response)
-   curl https://YOUR_API_URL/prod/tasks/TASK_ID
+   curl https://YOUR_API_URL/prod/tasks/TASK_ID 
 
    # Update task
    curl -X PUT https://YOUR_API_URL/prod/tasks/TASK_ID \
